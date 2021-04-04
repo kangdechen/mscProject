@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "eat-diet-app",
+  "private_key_id": "1c6a0812e9a7c4a0eeb70d05c6170f546d7994de",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDcEgXQnF808JM7\n6A9Me/EF7u2mwj+az2SDd+pbnQIGBHfvSYdDpkUzumAgr0CvL5YuMh0cd2J8tr3m\nFE5eiDqe60s0WsPo/JqNDFFfLo00fZnjsDvxHKmZ+TG+we8R9hMq2q2PetdBKvjY\nTFt1Nrk7JW8jPVha+pWkkyPNgFdpnBBnQZkSmEcYqyplYqc6bMxB9p+wyYlvlHsc\nvXivpTLNrr1vJcXD1kMBOb1i6ujqFSCNQXfDzA1l+em7t+I6b7+DHQ2+EcFzNJ+l\ndlovt9+WLd8Pn8bp15zrsX4A1fD8S5KzfpxOK2UgvTWQU0jnieSVKdKTalupKRF3\nja4zrCzrAgMBAAECggEAA18fiZJ8nyUt99dhJtiMYAtlVQc2DetKt1IGuKWYNUlI\nIOQZqSQOQ7HIyZISOyBrdP2dq8h6AqHoGQE9MXc8uco8f45XUpeHQRRIZjK+/hK2\nxLAUdpKzO5p/l8X29tts/k5c0D8YKGBFG9V0iQdaxM4nEgRro7qFa505QnnKgJq8\nQ8a2/m0Pdx2jLpOjpjVQ6qQYr/pMqxh6R4uU9KjBuMEsmpl1InqMYvnBOxlfM4an\nK717UV8fw+8ZpeW1rbG2OvGOFvs25ldXzWoCb6tPiUHFYBVjEKUsGy/YenePKPKN\nCgbJ3B0572Ye7Wso/ku+Xfd0v4AfEwTq6GAbU0ny6QKBgQD62RWC7Yju0Vnfa5ts\nF8E+rPVHx7aH4kRqLGmnvfFuIaFSKev3RJFagQ3RWacLafiwwCJLR+0DeGglxHL0\nz598TmJSXvqQF1x/F6uBQPRHiX9Txq2S10cgleYHp1LsIGEqkxDZ/ogauWBEPxTG\nl+lkPjvVWtDTxrpCln1Dfbw/qQKBgQDglx2KjrcgQSTTFkuHb/2FZ996B1VjMC9D\nmbBBWdu6p5pWhSLB68DFYUx9qLS5cuPXOzppeOlUegFDjHXrD+OzonnnyG1jML/w\nimJV2Uiww5WGESBtfQJDjl30a+NZfevMXX6aAj91eanxtDSPOfN6wv7N/h5K10mH\n6OTAlwt0cwKBgE5wRU68kh4DbrPzRRVm1DGSCdzZMVWKRlRg8OTX+z+x2m0D2Npo\nIX+IbVayTw69o1s5qT+bDR0RsJdmt3+f0MIhDJOvSXB3LaA8OY/gTMJ110/OB4as\nNHyXAugPxVk6wsd6V0GjWtHod5a/lvKGnB+RakpL7JLcSG/7+M166ruJAoGADAWK\nu0PwYXWbNwFWgaVo+J8awzlpRKnrnb64RIc+z7rw8/ikZ6Tq6KXQpllFczfHIlo1\nQjgKpU7yil8WYMK0+YSU6ec8k7akT4fYw6eh0HRnqIl6JuIuINeaB99OiBfJa2MF\nx9Ce/PbKNfnjZlc/xS5y3SvhCziC4xeARx7OqikCgYB/bhSwN8tDqVuTQaJcUggO\nEjY+TFB7aPKqUmF7W84lCJlQTUGb/B8QPXZndyt+P40Y9wB26vDFkks6T2FwisIb\nLRxKHJh+Hpkuz2RHQDpA/svR2yC7S3a3w4Av+Ciy4ZgqfSxFO7C/DatEHtHWmYrc\nz3YbWPP3mvYSLW/lXUGvWA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "eat-diet-app@appspot.gserviceaccount.com",
+  "client_id": "107078836062868844525",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/eat-diet-app%40appspot.gserviceaccount.com"
+}
