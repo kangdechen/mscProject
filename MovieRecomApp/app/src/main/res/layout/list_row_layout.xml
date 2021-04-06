@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_marginBottom="15dp"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/editText_uploader"
+        android:layout_width="match_parent"
+        android:text="uplader"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/edit_Show_movie"
+        android:layout_width="match_parent"
+        android:text="show moive"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/editText_Show_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"/>
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:id="@+id/RatingBarList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:isIndicator="true"
+        style="@style/Widget.MaterialRatingBar.RatingBar" />
+
+
+</LinearLayout>

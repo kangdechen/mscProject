@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/navigation_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uploader :"
+            />
+        <TextView
+            android:id="@+id/textView_Uploader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uploader"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/TextView_movie"
+        android:text="MovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/TextView_comment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="@string/comment"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ratings" />
+
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/SRatingBar"
+            style="@style/Widget.MaterialRatingBar.RatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_select"
+            android:text="Like"
+
+            />
+
+
+        <Button
+            android:id="@+id/button_dislike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_select"
+            android:text="dislike" />
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tags"
+        />
+
+    <com.jet.flowtaglayout.FlowTagLayout
+        android:id="@+id/TagLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:item_leftMargin="8dp"
+        app:item_rightMargin="8dp"
+        app:item_topMargin="8dp"
+        app:item_bottomMargin="8dp"
+        app:item_leftPadding="12dp"
+        app:item_rightPadding="12dp"
+        app:item_topPadding="6dp"
+        app:item_bottomPadding="6dp"
+        app:item_background="@drawable/ripple_gray"
+        app:item_textColor="#F25A25"
+        app:item_textSize="16sp"
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                >
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="add"
+                />
+
+            <Button
+                android:id="@+id/button_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="remove"
+                />
+            <Button
+                android:id="@+id/button_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="submit"
+                />
+
+            <EditText
+                android:id="@+id/editText_tags"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:text="TagName" />
+        </LinearLayout>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/picture"
+        />
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"/>
+
+
+</LinearLayout>
