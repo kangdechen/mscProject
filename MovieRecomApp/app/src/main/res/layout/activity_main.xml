@@ -1,72 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    tools:context=".MainActivity">
+
 
     <EditText
-        android:id="@+id/editText_id"
+        android:id="@+id/editText_Uid"
+        android:hint="username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+
     <EditText
-        android:id="@+id/editText_password"
+        android:id="@+id/editText_Upassword"
         android:inputType="textPassword"
+        android:hint="password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/button_request"
+        android:id="@+id/button_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="LOGIN"
-        />
-    <Button
-        android:id="@+id/button_register"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="register"
-        />
-
-    <Button
-        android:id="@+id/button_upload"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="FileUpload"
-        />
-
-    <Button
-        android:id="@+id/button_test"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="FileTest"
-        />
-
-    <com.jet.flowtaglayout.FlowTagLayout
-        android:id="@+id/flowTagLayout"
-        android:layout_width="match_parent"
-        android:layout_height="150dp"
-        app:item_leftMargin="8dp"
-        app:item_rightMargin="8dp"
-        app:item_topMargin="8dp"
-        app:item_bottomMargin="8dp"
-        app:item_leftPadding="12dp"
-        app:item_rightPadding="12dp"
-        app:item_topPadding="6dp"
-        app:item_bottomPadding="6dp"
-        app:item_background="@drawable/ripple_gray"
-        app:item_textColor="#F25A25"
-        app:item_textSize="16sp"
-        />
-
-
-    <Button
-        android:id="@+id/button_md"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="md_Example"
         />
 
 
